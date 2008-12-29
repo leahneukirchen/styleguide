@@ -131,6 +131,8 @@ when you contribute to my code, please follow these rules:
 
 == The rest:
 
+* Write ruby -w safe code.
+
 * Avoid hashes-as-optional-parameters.  Does the method do too much?
 
 * Avoid long methods.
