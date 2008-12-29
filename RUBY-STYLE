@@ -14,10 +14,15 @@ when you contribute to my code, please follow these rules:
 
 * Use Unix-style line endings.
 
-* Use spaces around operators, after commas, around { and before }.
+* Use spaces around operators, after commas, colons and semicolons,
+  around { and before }.
+
+* No spaces after (, [ and before ], ).
 
 * Use two spaces before statement modifiers (postfix
   if/unless/while/until/rescue).
+
+* Indent when as deep as case.
 
 * Use an empty line before the return value of a method (unless it
   only has one line), and an empty line between defs.
@@ -27,7 +32,7 @@ when you contribute to my code, please follow these rules:
 
 * Use empty lines to break up a long method into logical paragraphs.
 
-* Keep lines <80 chars.
+* Keep lines fewer than 80 characters.
 
 * Avoid trailing whitespace.
 
@@ -41,8 +46,6 @@ when you contribute to my code, please follow these rules:
 * Never use then.
 
 * Use when x; ... for one-line cases.
-
-* Indent when as deep as case.
 
 * Use &&/|| for boolean expressions, and/or for control flow.  (Rule
   of thumb: If you have to use outer parentheses, you are using the
@@ -93,6 +96,7 @@ when you contribute to my code, please follow these rules:
     a,b,c: any object
     d: directory names
     e: elements of an Enumerable
+    ex: rescued exceptions
     f: files and file names
     i,j: indexes
     k: the key part of a hash entry
