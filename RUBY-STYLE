@@ -118,7 +118,8 @@ when you contribute to my code, please follow these rules:
 
 * When defining binary operators, name the argument "other".
 
-* Prefer map over collect, find over detect, find_all over select.
+* Prefer map over collect, find over detect, find_all over select,
+  size over length.
 
 
 == Comments:
@@ -156,6 +157,8 @@ when you contribute to my code, please follow these rules:
 == General:
 
 * Code in a functional way, avoid mutation when it makes sense.
+
+* Do not mutate arguments unless that is the purpose of the method.
 
 * Do not mess around in core classes when writing libraries.
 
