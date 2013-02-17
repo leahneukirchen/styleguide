@@ -12,7 +12,7 @@ when you contribute to my code, please follow these rules:
 
 * Use 2 space indent, no tabs.
 
-* Use Unix-style line endings.
+* Use Unix-style line endings.  On the last line of the file, too.
 
 * Use spaces around operators, after commas, colons and semicolons,
   around { and before }.
@@ -78,6 +78,8 @@ when you contribute to my code, please follow these rules:
 
 * Use non-OO regexps (they won't make the code better).  Freely use
   =~, $0-9, $~, $` and $' when needed.
+
+* Never use smalltalk: symbols.
 
 
 == Naming:
@@ -149,7 +151,7 @@ when you contribute to my code, please follow these rules:
 * Use OptionParser for parsing complex command line options and
   ruby -s for trivial command line options.
 
-* Write for 1.8, but avoid doing things you know that will break in 1.9.
+* Target Ruby 1.9.
 
 * Avoid needless metaprogramming.
 
