@@ -44,12 +44,12 @@ but merely how to format it.
 
 * For dangling else, use `{ }` around the outer if:
 
-	if (bar) {
-		if (foo)
-			foo();
-		else
-			notfoo();
-	}
+		if (bar) {
+			if (foo)
+				foo();
+			else
+				notfoo();
+		}
 
 * Use spaces around assignments and comparisons,
   after keywords, commas, colons and semicolons,
@@ -166,21 +166,21 @@ but merely how to format it.
 
 * Write single line comments like this:
 
-	/* foo */
-	// C++ style is also ok.
+		/* foo */
+		// C++ style is also ok.
 
 * Use at least two spaces before end-of-line comments in a code line.
 
 * Write multi-line comments like this:
 
-	/*
-	 * Important comments
-	 * at the beginning of the file.
-	 */
+		/*
+		 * Important comments
+		 * at the beginning of the file.
+		 */
 
-	/* Inline comments
-	   that can span
-	   multiple lines. */
+		/* Inline comments
+		   that can span
+		   multiple lines. */
 
 * Avoid superfluous comments.
 
