@@ -130,7 +130,7 @@ but merely how to format it.
   * Do not use `!strcmp(a, b)`.
   * Use `if (!p) ...` to check whether `p` is a null pointer.
 
-* Don't use Yoda comparison (`0 == x`).
+* Don't use Yoda conditions (`0 == x`).
 
 * Use a plain `;` on a line of itself for the empty instruction.
 
