@@ -112,9 +112,12 @@ but merely how to format it.
 
 * Initialize zeroed structs using `= { 0 }`.
 
-* Prefer `x+i` over `&x[i]`.
-
 * Prefer `i++` over `++i`.
+
+* Prefer `*x` over `x[0]`
+  (unless the same code also accesses `x[1]`, `x[2]` etc.)
+
+* Prefer `x+i` over `&x[i]`.
 
 * Do not use `NULL`.  Use `0` for null pointers.
   Remember to use `(char *)0` as a sentinel for execl(3).
