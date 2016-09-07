@@ -104,6 +104,8 @@ but merely how to format it.
 
 * Declare functions `static` when they are only used in this translation unit.
 
+* Use lowercase hexadecimal digits.
+
 ## Idioms:
 
 * Using the return value of `=` is ok.
