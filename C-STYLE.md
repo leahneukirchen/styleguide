@@ -150,7 +150,7 @@ but merely how to format it.
 * The length of an identifier determines its scope.
 
 * Respect POSIX namespaces: http://port70.net/~nsz/c/posix/reserved.txt
-  Do not use `_t` postfix for types.
+  Do not use `_t` suffix for types.
 
 * Use `snake_case` for functions, variables, and types.
 
@@ -158,7 +158,7 @@ but merely how to format it.
 
 * Use `Xflag` for the value of the command line flag `-X`.
 
-* Use a postfix `o` to mark output parameters.
+* Use a suffix `o` to mark output parameters.
 
 * Use a consistent prefix for all global names in a library.
 
