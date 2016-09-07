@@ -55,7 +55,7 @@ but merely how to format it.
   after keywords, commas, colons and semicolons,
   around `{` and before `}`, and around `? :`.
 
-* No not use a space between function name and arguments.
+* No space between function name and arguments.
 
 * No spaces after `(`, `[` and before `]`, `)`.
 
