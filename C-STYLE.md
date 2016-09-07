@@ -122,8 +122,6 @@ but merely how to format it.
 * Do not use `NULL`.  Use `0` for null pointers.
   Remember to use `(char *)0` as a sentinel for execl(3).
 
-* Check null pointers by truth: `if (foo) ...`
-
 * Avoid superfluous comparison to 0.
   * Exception:  Use `== 0` when 0 is the successful result, e.g.
     `strcmp(a, b) == 0`, `access(file, F_OK) == 0`, `regexec(...) == 0`.
