@@ -1,4 +1,4 @@
-= Christian Neukirchen's C Style Guide
+# Christian Neukirchen's C Style Guide
 
 You may not like all rules presented here, but they work very well for
 me and have helped producing high quality code.  Everyone is free to
@@ -8,7 +8,7 @@ when you contribute to my code, please follow these rules:
 This guide does not explain how to write good C code,
 but merely how to format it.
 
-== Formatting:
+## Formatting:
 
 * Use ASCII (UTF-8 is ok in comments, if you have to).
 
@@ -104,7 +104,7 @@ but merely how to format it.
 
 * Declare functions `static` when they are only used in this translation unit.
 
-== Idioms:
+## Idioms:
 
 * Using the return value of `=` is ok.
 
@@ -142,7 +142,7 @@ but merely how to format it.
 * Avoid forward declarations unless indispensable.
   Let `main` be the last function in code.
 
-== Naming:
+## Naming:
 
 * The length of an identifier determines its scope.
 
@@ -159,7 +159,7 @@ but merely how to format it.
 
 * Use a consistent prefix for all global names in a library.
 
-== Comments:
+## Comments:
 
 * Comments longer than a word are capitalized and use punctuation.
   Use two spaces after periods.
@@ -184,13 +184,13 @@ but merely how to format it.
 
 * Avoid superfluous comments.
 
-== The rest:
+## The rest:
 
 * Avoid long functions.
 
 * Avoid long parameter lists.
 
-== General:
+## General:
 
 * Do not mutate arguments unless that is the purpose of the function.
 
