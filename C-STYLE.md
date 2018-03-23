@@ -1,4 +1,4 @@
-# Christian Neukirchen's C Style Guide
+# Leah Neukirchen's C Style Guide
 
 You may not like all rules presented here, but they work very well for
 me and have helped producing high quality code.  Everyone is free to
@@ -141,6 +141,8 @@ but merely how to format it.
 * Only initialize variables when it is sensible.
 
 * Use `int` variables to store boolean values in general.
+
+* Avoid bit fields unless you absolutely need to save space.
 
 * Avoid forward declarations unless indispensable.
   Let `main` be the last function in code.
